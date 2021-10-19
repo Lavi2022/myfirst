@@ -1,0 +1,10 @@
+<template>
+    <lightning-card>
+        <div>
+            Car List
+        </div>
+        <template for:each={carList} for:item="car">
+            <div key={car}>{car}</div>
+        </template>
+    </lightning-card>
+</template>
